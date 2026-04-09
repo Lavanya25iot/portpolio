@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sindhu | Portfolio</title>
+    <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+    <div class="decor decor-top-left"></div>
+    <div class="decor decor-top-right"></div>
+    <div class="decor decor-bottom-left"></div>
+    <div class="bg-blur bg-1"></div>
+    <div class="bg-blur bg-2"></div>
+
+    <header class="hero container">
+        
+        
+        <p class="tag">Student Portfolio</p>
+        <h1 id="name">Lavanya HM</h1>
+        <p id="role" class="subtitle">BCA Student • A Section • 2nd Semester</p>
+        <p id="about" class="about">
+            I am a dedicated BCA student with strong interest in web development and software applications. I enjoy building clean and user-friendly websites, collaborating with teams, and continuously improving my technical skills.
+        </p>
+        <div class="stats">
+            <span class="chip">Visitors: <strong id="visitors">0</strong></span>
+            <span class="chip">Open to internships</span>
+            <span class="chip">College: KJU</span>
+        </div>
+        <div class="hero-highlights">
+            <span>Creative Learner</span>
+            <span>Frontend Enthusiast</span>
+            <span>Future Software Professional</span>
+        </div>
+        <div class="hero-ribbon"></div>
+    </header>
+
+    <main class="container grid">
+        <section class="card accent-purple">
+            <h2><span class="section-icon">👩‍🎓</span> Personal Details</h2>
+            <div class="details-list">
+                <p><strong>Name:</strong> Lavanya HM</p>
+                <p><strong>Course:</strong> BCA</p>
+                <p><strong>Section:</strong> A Section</p>
+                <p><strong>Semester:</strong> 2nd Semester</p>
+                <p><strong>College:</strong> KJU</p>
+                <p><strong>Email:</strong> lavanyagowda774@gmail.com</p>
+            </div>
+        </section>
+
+        <section class="card accent-blue">
+            <h2><span class="section-icon">💡</span> Skills</h2>
+            <ul id="skills" class="skills-list">
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>Python</li>
+                <li>Team Work</li>
+                <li>Communication</li>
+            </ul>
+        </section>
+
+        <section class="card accent-pink">
+            <h2><span class="section-icon">🚀</span> Projects</h2>
+            <ul class="content-list">
+                <li>Register Website</li>
+                <li>Student Portfolio Website</li>
+                <li>Contact Form with Flask and SQLite</li>
+            </ul>
+        </section>
+
+        <section class="card accent-purple">
+            <h2><span class="section-icon">🏅</span> Certifications</h2>
+            <ul class="content-list">
+                <li>NASSCOM</li>
+                <li>MongoDB</li>
+            </ul>
+        </section>
+
+        <section class="card accent-blue">
+            <h2><span class="section-icon">🎵</span> Hobbies</h2>
+            <ul class="content-list">
+                <li>Travelling</li>
+                <li>Music</li>
+            </ul>
+        </section>
+
+        <section class="card accent-pink">
+            <h2><span class="section-icon">🎯</span> Career Goal</h2>
+            <p class="goal-text">
+                To get a good job and build a successful career by learning new technologies and contributing to meaningful real-world projects.
+            </p>
+        </section>
+
+        <section class="card accent-purple">
+            <h2><span class="section-icon">📬</span> Contact Me</h2>
+            <form id="contactForm">
+                <label for="contactName">Name</label>
+                <input id="contactName" type="text" placeholder="Your name" required />
+
+                <label for="contactEmail">Email</label>
+                <input id="contactEmail" type="email" placeholder="your@email.com" required />
+
+                <label for="contactMessage">Message</label>
+                <textarea id="contactMessage" rows="4" placeholder="Write your message..." required></textarea>
+
+                <button type="submit">Send Message</button>
+                <p id="formStatus" class="form-status"></p>
+            </form>
+        </section>
+    </main>
+
+    <footer class="container footer">
+        <p>© <span id="year"></span> Lavanya HM • BCA Student Portfolio</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

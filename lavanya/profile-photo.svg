@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" role="img" aria-label="Profile photo illustration">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#7a67ff"/>
+      <stop offset="50%" stop-color="#4aa4ff"/>
+      <stop offset="100%" stop-color="#ff7bc3"/>
+    </linearGradient>
+    <linearGradient id="shirt" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#5f49ff"/>
+      <stop offset="100%" stop-color="#8a72ff"/>
+    </linearGradient>
+  </defs>
+  <rect width="200" height="200" fill="url(#bg)"/>
+  <circle cx="100" cy="78" r="36" fill="#ffe6d8"/>
+  <path d="M64 70c2-24 18-36 36-36s36 12 36 36c-8-8-16-12-36-12s-28 4-36 12z" fill="#2b2f5f"/>
+  <circle cx="86" cy="80" r="3" fill="#2c355f"/>
+  <circle cx="114" cy="80" r="3" fill="#2c355f"/>
+  <path d="M88 95c4 5 20 5 24 0" stroke="#a2557f" stroke-width="3" fill="none" stroke-linecap="round"/>
+  <path d="M44 184c6-36 30-56 56-56s50 20 56 56" fill="url(#shirt)"/>
+  <text x="100" y="178" text-anchor="middle" font-family="Segoe UI, Arial" font-size="20" font-weight="700" fill="#fff">SS</text>
+</svg>
